@@ -1,0 +1,6 @@
+framework module Pods_Notofication {
+  umbrella header "Pods-Notofication-umbrella.h"
+
+  export *
+  module * { export * }
+}

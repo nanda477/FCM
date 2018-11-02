@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4468A8C8218C4FE700808508 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4468A8C7218C4FE700808508 /* CoreLocation.framework */; };
+		4468A8CC218C643C00808508 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4468A8CB218C643C00808508 /* GoogleService-Info.plist */; };
+		44ACA0FB218C179C0083299D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ACA0FA218C179C0083299D /* AppDelegate.swift */; };
+		44ACA0FD218C179C0083299D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ACA0FC218C179C0083299D /* ViewController.swift */; };
+		44ACA100218C179C0083299D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44ACA0FE218C179C0083299D /* Main.storyboard */; };
+		44ACA102218C179C0083299D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44ACA101218C179C0083299D /* Assets.xcassets */; };
+		44ACA105218C179C0083299D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44ACA103218C179C0083299D /* LaunchScreen.storyboard */; };
+		44ACA110218C179C0083299D /* NotoficationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ACA10F218C179C0083299D /* NotoficationTests.swift */; };
+		44ACA11B218C179C0083299D /* NotoficationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ACA11A218C179C0083299D /* NotoficationUITests.swift */; };
+		DFCF52CA1ABA50E3ECAE6F99 /* Pods_Notofication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EDBE078CF7E3A60DB88125 /* Pods_Notofication.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44ACA10C218C179C0083299D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44ACA0EF218C179C0083299D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44ACA0F6218C179C0083299D;
+			remoteInfo = Notofication;
+		};
+		44ACA117218C179C0083299D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44ACA0EF218C179C0083299D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44ACA0F6218C179C0083299D;
+			remoteInfo = Notofication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C318A59EB4152577AE3984 /* Pods-Notofication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notofication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notofication/Pods-Notofication.debug.xcconfig"; sourceTree = "<group>"; };
+		4468A8C7218C4FE700808508 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4468A8CB218C643C00808508 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44ACA0F7218C179C0083299D /* Notofication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notofication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ACA0FA218C179C0083299D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44ACA0FC218C179C0083299D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44ACA0FF218C179C0083299D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44ACA101218C179C0083299D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44ACA104218C179C0083299D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44ACA106218C179C0083299D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44ACA10B218C179C0083299D /* NotoficationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotoficationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ACA10F218C179C0083299D /* NotoficationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotoficationTests.swift; sourceTree = "<group>"; };
+		44ACA111218C179C0083299D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44ACA116218C179C0083299D /* NotoficationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotoficationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ACA11A218C179C0083299D /* NotoficationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotoficationUITests.swift; sourceTree = "<group>"; };
+		44ACA11C218C179C0083299D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44ACA12C218C29310083299D /* Notofication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notofication.entitlements; sourceTree = "<group>"; };
+		77A8FC0B0A312026D8CB96E1 /* Pods-Notofication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notofication.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notofication/Pods-Notofication.release.xcconfig"; sourceTree = "<group>"; };
+		B2EDBE078CF7E3A60DB88125 /* Pods_Notofication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notofication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44ACA0F4218C179C0083299D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4468A8C8218C4FE700808508 /* CoreLocation.framework in Frameworks */,
+				DFCF52CA1ABA50E3ECAE6F99 /* Pods_Notofication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACA108218C179C0083299D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACA113218C179C0083299D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44ACA0EE218C179C0083299D = {
+			isa = PBXGroup;
+			children = (
+				44ACA0F9218C179C0083299D /* Notofication */,
+				44ACA10E218C179C0083299D /* NotoficationTests */,
+				44ACA119218C179C0083299D /* NotoficationUITests */,
+				44ACA0F8218C179C0083299D /* Products */,
+				5653C46F7C076E3CAAAD6EF3 /* Pods */,
+				97C1D287D2147C1D38E95735 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44ACA0F8218C179C0083299D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44ACA0F7218C179C0083299D /* Notofication.app */,
+				44ACA10B218C179C0083299D /* NotoficationTests.xctest */,
+				44ACA116218C179C0083299D /* NotoficationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44ACA0F9218C179C0083299D /* Notofication */ = {
+			isa = PBXGroup;
+			children = (
+				44ACA12C218C29310083299D /* Notofication.entitlements */,
+				44ACA0FA218C179C0083299D /* AppDelegate.swift */,
+				44ACA0FC218C179C0083299D /* ViewController.swift */,
+				4468A8CB218C643C00808508 /* GoogleService-Info.plist */,
+				44ACA0FE218C179C0083299D /* Main.storyboard */,
+				44ACA101218C179C0083299D /* Assets.xcassets */,
+				44ACA103218C179C0083299D /* LaunchScreen.storyboard */,
+				44ACA106218C179C0083299D /* Info.plist */,
+			);
+			path = Notofication;
+			sourceTree = "<group>";
+		};
+		44ACA10E218C179C0083299D /* NotoficationTests */ = {
+			isa = PBXGroup;
+			children = (
+				44ACA10F218C179C0083299D /* NotoficationTests.swift */,
+				44ACA111218C179C0083299D /* Info.plist */,
+			);
+			path = NotoficationTests;
+			sourceTree = "<group>";
+		};
+		44ACA119218C179C0083299D /* NotoficationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44ACA11A218C179C0083299D /* NotoficationUITests.swift */,
+				44ACA11C218C179C0083299D /* Info.plist */,
+			);
+			path = NotoficationUITests;
+			sourceTree = "<group>";
+		};
+		5653C46F7C076E3CAAAD6EF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18C318A59EB4152577AE3984 /* Pods-Notofication.debug.xcconfig */,
+				77A8FC0B0A312026D8CB96E1 /* Pods-Notofication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97C1D287D2147C1D38E95735 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4468A8C7218C4FE700808508 /* CoreLocation.framework */,
+				B2EDBE078CF7E3A60DB88125 /* Pods_Notofication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44ACA0F6218C179C0083299D /* Notofication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44ACA11F218C179C0083299D /* Build configuration list for PBXNativeTarget "Notofication" */;
+			buildPhases = (
+				A71FAAF6EE02BF5D473611D1 /* [CP] Check Pods Manifest.lock */,
+				44ACA0F3218C179C0083299D /* Sources */,
+				44ACA0F4218C179C0083299D /* Frameworks */,
+				44ACA0F5218C179C0083299D /* Resources */,
+				9B58626EE9AA936C6495379F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notofication;
+			productName = Notofication;
+			productReference = 44ACA0F7218C179C0083299D /* Notofication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44ACA10A218C179C0083299D /* NotoficationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44ACA122218C179C0083299D /* Build configuration list for PBXNativeTarget "NotoficationTests" */;
+			buildPhases = (
+				44ACA107218C179C0083299D /* Sources */,
+				44ACA108218C179C0083299D /* Frameworks */,
+				44ACA109218C179C0083299D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44ACA10D218C179C0083299D /* PBXTargetDependency */,
+			);
+			name = NotoficationTests;
+			productName = NotoficationTests;
+			productReference = 44ACA10B218C179C0083299D /* NotoficationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44ACA115218C179C0083299D /* NotoficationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44ACA125218C179C0083299D /* Build configuration list for PBXNativeTarget "NotoficationUITests" */;
+			buildPhases = (
+				44ACA112218C179C0083299D /* Sources */,
+				44ACA113218C179C0083299D /* Frameworks */,
+				44ACA114218C179C0083299D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44ACA118218C179C0083299D /* PBXTargetDependency */,
+			);
+			name = NotoficationUITests;
+			productName = NotoficationUITests;
+			productReference = 44ACA116218C179C0083299D /* NotoficationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44ACA0EF218C179C0083299D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mahiti;
+				TargetAttributes = {
+					44ACA0F6218C179C0083299D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					44ACA10A218C179C0083299D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44ACA0F6218C179C0083299D;
+					};
+					44ACA115218C179C0083299D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44ACA0F6218C179C0083299D;
+					};
+				};
+			};
+			buildConfigurationList = 44ACA0F2218C179C0083299D /* Build configuration list for PBXProject "Notofication" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44ACA0EE218C179C0083299D;
+			productRefGroup = 44ACA0F8218C179C0083299D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44ACA0F6218C179C0083299D /* Notofication */,
+				44ACA10A218C179C0083299D /* NotoficationTests */,
+				44ACA115218C179C0083299D /* NotoficationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44ACA0F5218C179C0083299D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ACA105218C179C0083299D /* LaunchScreen.storyboard in Resources */,
+				4468A8CC218C643C00808508 /* GoogleService-Info.plist in Resources */,
+				44ACA102218C179C0083299D /* Assets.xcassets in Resources */,
+				44ACA100218C179C0083299D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACA109218C179C0083299D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACA114218C179C0083299D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B58626EE9AA936C6495379F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Notofication/Pods-Notofication-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Notofication/Pods-Notofication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71FAAF6EE02BF5D473611D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notofication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44ACA0F3218C179C0083299D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ACA0FD218C179C0083299D /* ViewController.swift in Sources */,
+				44ACA0FB218C179C0083299D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACA107218C179C0083299D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ACA110218C179C0083299D /* NotoficationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACA112218C179C0083299D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ACA11B218C179C0083299D /* NotoficationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44ACA10D218C179C0083299D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44ACA0F6218C179C0083299D /* Notofication */;
+			targetProxy = 44ACA10C218C179C0083299D /* PBXContainerItemProxy */;
+		};
+		44ACA118218C179C0083299D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44ACA0F6218C179C0083299D /* Notofication */;
+			targetProxy = 44ACA117218C179C0083299D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44ACA0FE218C179C0083299D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44ACA0FF218C179C0083299D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44ACA103218C179C0083299D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44ACA104218C179C0083299D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44ACA11D218C179C0083299D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LP9S43DY9W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44ACA11E218C179C0083299D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LP9S43DY9W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44ACA120218C179C0083299D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C318A59EB4152577AE3984 /* Pods-Notofication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Notofication/Notofication.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LP9S43DY9W;
+				INFOPLIST_FILE = Notofication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahiti.Notofication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8f2625a6-3733-4a75-aeca-f3ab9fd5dc4f";
+				PROVISIONING_PROFILE_SPECIFIER = notify;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44ACA121218C179C0083299D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A8FC0B0A312026D8CB96E1 /* Pods-Notofication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Notofication/Notofication.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LP9S43DY9W;
+				INFOPLIST_FILE = Notofication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahiti.Notofication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8f2625a6-3733-4a75-aeca-f3ab9fd5dc4f";
+				PROVISIONING_PROFILE_SPECIFIER = notify;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44ACA123218C179C0083299D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP9S43DY9W;
+				INFOPLIST_FILE = NotoficationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahiti.NotoficationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notofication.app/Notofication";
+			};
+			name = Debug;
+		};
+		44ACA124218C179C0083299D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP9S43DY9W;
+				INFOPLIST_FILE = NotoficationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahiti.NotoficationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notofication.app/Notofication";
+			};
+			name = Release;
+		};
+		44ACA126218C179C0083299D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP9S43DY9W;
+				INFOPLIST_FILE = NotoficationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahiti.NotoficationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Notofication;
+			};
+			name = Debug;
+		};
+		44ACA127218C179C0083299D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP9S43DY9W;
+				INFOPLIST_FILE = NotoficationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahiti.NotoficationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Notofication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44ACA0F2218C179C0083299D /* Build configuration list for PBXProject "Notofication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ACA11D218C179C0083299D /* Debug */,
+				44ACA11E218C179C0083299D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44ACA11F218C179C0083299D /* Build configuration list for PBXNativeTarget "Notofication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ACA120218C179C0083299D /* Debug */,
+				44ACA121218C179C0083299D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44ACA122218C179C0083299D /* Build configuration list for PBXNativeTarget "NotoficationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ACA123218C179C0083299D /* Debug */,
+				44ACA124218C179C0083299D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44ACA125218C179C0083299D /* Build configuration list for PBXNativeTarget "NotoficationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ACA126218C179C0083299D /* Debug */,
+				44ACA127218C179C0083299D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44ACA0EF218C179C0083299D /* Project object */;
+}
